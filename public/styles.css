@@ -1,0 +1,30 @@
+/*Table of Contents
+===================
+1. Fonts Import
+2. Global Styles
+3. Component
+===================*/
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: hsl(180, 52%, 96%);
+}
+
+nav {
+  background-color: hsl(180, 8%, 52%);
+  height: 155px;
+}
+img {
+  margin-bottom: -20px;
+  position: absolute;
+}
